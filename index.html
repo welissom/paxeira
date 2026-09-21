@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Paxeirá Perfumes — fragrâncias marcantes, elegantes e cheias de personalidade." />
+  <title>Paxeirá Perfumes | Sua presença, sua essência</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <!--
+    ORGANIZAÇÃO DAS IMAGENS:
+    Salve as fotos recebidas na pasta "assets" com estes nomes:
+    logo-paxeira.jpg, pe-de-pano.jpg, respeito.jpg, produtos-paxeira.jpg,
+    armaria.jpg, galega.jpg, galego.jpg, o-de-sempre.jpg, galeria-produtos.jpg
+
+    WHATSAPP: substitua 5585999999999 pelo número correto, apenas com DDI + DDD + número.
+  -->
+
+  <header class="header" id="topo">
+    <div class="container nav">
+      <a href="#topo" class="brand" aria-label="Paxeirá Perfumes - página inicial">
+        <img src="assets/logo-paxeira.jpeg" class="brand-mark" alt="Logo Paxeirá Perfumes" />
+        <span><strong>PAXEIRÁ</strong><small>PERFUMES</small></span>
+      </a>
+      <button class="menu-toggle" aria-label="Abrir menu" aria-expanded="false">☰</button>
+      <ul class="nav-links">
+        <li><a href="#sobre">A marca</a></li>
+        <li><a href="#perfumes">Perfumes</a></li>
+        <li><a href="#galeria">Galeria</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" aria-label="Destaques Paxeirá Perfumes">
+      <div class="hero-slide active" style="background-image:url('assets/produtos-paxeira.jpg')"></div>
+      <div class="hero-slide" style="background-image:url('assets/galego.jpg')"></div>
+      <div class="hero-slide" style="background-image:url('assets/respeito.jpg')"></div>
+      <div class="hero-content container">
+        <div class="hero-text">
+          <span class="eyebrow">Paxeirá Perfumes • 50 ml</span>
+          <h1>Uma essência que <em>marca</em> presença.</h1>
+          <p>Fragrâncias desenvolvidas para transformar memórias, destacar personalidades e acompanhar cada momento com elegância.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary whatsapp-link" href="#contato">Escolher meu perfume</a>
+            <a class="btn btn-outline" href="#perfumes">Conhecer coleção</a>
+          </div>
+        </div>
+      </div>
+      <div class="hero-controls">
+        <div class="dots" aria-label="Navegação do carrossel">
+          <button class="dot active" aria-label="Slide 1"></button><button class="dot" aria-label="Slide 2"></button><button class="dot" aria-label="Slide 3"></button>
+        </div>
+        <div class="slide-arrows"><button class="arrow prev" aria-label="Imagem anterior">←</button><button class="arrow next" aria-label="Próxima imagem">→</button></div>
+      </div>
+    </section>
+
+    <section class="section" id="sobre">
+      <div class="container intro-grid">
+        <div class="intro-image reveal"><img src="assets/todos.jpeg" alt="Perfume Pé de Pano Paxeirá" /></div>
+        <div class="reveal">
+          <span class="eyebrow">Identidade em cada detalhe</span>
+          <h2 class="heading">Perfumes para contar a sua história.</h2>
+          <p class="section-copy">A Paxeirá Perfumes celebra a autenticidade. Nossa coleção reúne fragrâncias de presença, em frascos elegantes de 50 ml, para quem acredita que perfume também é assinatura.</p>
+          <p class="section-copy">Do primeiro encontro ao momento que fica na memória, encontre uma essência que combine com seu jeito de ser.</p>
+          <p class="signature">Paxeirá Perfumes — sua presença, sua essência.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section products" id="perfumes">
+      <div class="container">
+        <div class="reveal"><span class="eyebrow">Coleção Paxeirá</span><h2 class="heading">Escolha sua assinatura.</h2><p class="section-copy">Conheça alguns dos perfumes que fazem parte da nossa coleção. Fale conosco para receber atendimento personalizado e descobrir a fragrância ideal.</p></div>
+        <div class="product-grid">
+          <article class="card reveal"><div class="card-image"><img src="assets/armaria.jpeg" alt="Perfume Armaria Paxeirá 50 ml" /></div><div class="card-body"><h3>Armaria</h3><p>Uma escolha elegante para deixar sua marca por onde passar.</p><a class="card-link whatsapp-link" href="#contato" data-product="Armaria">Consultar disponibilidade</a></div></article>
+          <article class="card reveal"><div class="card-image"><img src="assets/galega.jpeg" alt="Perfume Galega Paxeirá 50 ml" /></div><div class="card-body"><h3>Galega</h3><p>Presença delicada e envolvente para acompanhar sua rotina.</p><a class="card-link whatsapp-link" href="#contato" data-product="Galega">Consultar disponibilidade</a></div></article>
+          <article class="card reveal"><div class="card-image"><img src="assets/galego.jpeg" alt="Perfume Galego Paxeirá 50 ml" /></div><div class="card-body"><h3>Galego</h3><p>Uma fragrância de personalidade, intensa na medida certa.</p><a class="card-link whatsapp-link" href="#contato" data-product="Galego">Consultar disponibilidade</a></div></article>
+          <article class="card reveal"><div class="card-image"><img src="assets/respeite.jpeg" alt="Perfume Respeite Paxeirá 50 ml" /></div><div class="card-body"><h3>Respeite</h3><p>Para quem chega com confiança e deixa uma impressão inesquecível.</p><a class="card-link whatsapp-link" href="#contato" data-product="Respeite">Consultar disponibilidade</a></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container"><div class="reveal"><span class="eyebrow">Por que Paxeirá?</span><h2 class="heading">Muito além de um perfume.</h2></div>
+        <div class="benefits-grid">
+          <div class="benefit reveal"><div class="benefit-number">01</div><h3>Presença</h3><p>Fragrâncias criadas para acompanhar seus momentos e expressar seu estilo com personalidade.</p></div>
+          <div class="benefit reveal"><div class="benefit-number">02</div><h3>Elegância</h3><p>Frascos sofisticados, acabamento marcante e cuidado em cada detalhe da experiência.</p></div>
+          <div class="benefit reveal"><div class="benefit-number">03</div><h3>Exclusividade</h3><p>Atendimento próximo para ajudar você a encontrar uma essência feita para sua história.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section gallery" id="galeria">
+      <div class="container"><div class="reveal"><span class="eyebrow">Nossa vitrine</span><h2 class="heading">Detalhes que encantam.</h2></div>
+        <div class="gallery-grid reveal">
+          <div class="gallery-item"><img src="assets/todos.jpeg" alt="Coleção de perfumes Paxeirá" /></div>
+          <div class="gallery-item"><img src="assets/o-de-sempre.jpeg" alt="Perfume O de Sempre Paxeirá" /></div>
+          <div class="gallery-item"><img src="assets/pe-de-pano.jpeg" alt="Perfume Pé de Pano Paxeirá" /></div>
+          <div class="gallery-item"><img src="assets/galego.jpeg" alt="Perfume Galego Paxeirá" /></div>
+          <div class="gallery-item"><img src="assets/armaria.jpeg" alt="Perfume Armaria Paxeirá" /></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta" id="contato">
+      <div class="container reveal"><span class="eyebrow">Atendimento personalizado</span><h2 class="heading">Encontre a fragrância<br />que fala por você.</h2><p class="section-copy">Entre em contato pelo WhatsApp, consulte a disponibilidade e receba ajuda para escolher seu perfume Paxeirá.</p><a class="btn btn-primary whatsapp-link" href="#" data-product="um perfume Paxeirá">Falar no WhatsApp</a></div>
+    </section>
+  </main>
+
+  <footer><div class="container footer-content"><div class="footer-brand">PAXEIRÁ PERFUMES</div><p>© <span id="year"></span> Paxeirá Perfumes. Todos os direitos reservados.</p></div></footer>
+
+  <a class="whatsapp whatsapp-link" href="#" aria-label="Falar com Paxeirá Perfumes pelo WhatsApp" data-product="um perfume Paxeirá">
+    <svg viewBox="0 0 32 32" aria-hidden="true"><path d="M19.11 17.42c-.27-.14-1.58-.78-1.82-.87-.24-.09-.42-.14-.6.14-.18.27-.69.87-.85 1.05-.16.18-.32.2-.59.07-1.62-.81-2.68-1.45-3.75-3.29-.28-.48.28-.45.8-1.49.09-.18.05-.34-.02-.48-.07-.14-.6-1.44-.82-1.97-.22-.53-.45-.46-.6-.47h-.51c-.18 0-.47.07-.72.34-.25.27-.95.92-.95 2.24s.97 2.59 1.1 2.77c.14.18 1.91 2.91 4.62 4.09.64.28 1.14.45 1.53.57.64.2 1.22.17 1.68.1.51-.08 1.58-.65 1.8-1.28.22-.63.22-1.17.16-1.28-.07-.12-.24-.18-.51-.32zM16.02 4.67c6.25 0 11.32 5.06 11.32 11.31 0 6.25-5.07 11.32-11.32 11.32-2 0-3.87-.52-5.48-1.43L4.67 27.7l1.9-5.68a11.27 11.27 0 0 1-1.87-6.04c0-6.25 5.07-11.31 11.32-11.31zm0 20.57c5.11 0 9.26-4.15 9.26-9.26s-4.15-9.25-9.26-9.25-9.25 4.14-9.25 9.25c0 2.04.66 3.92 1.79 5.45l-1.11 3.31 3.43-1.1a9.2 9.2 0 0 0 5.14 1.6z" /></svg>
+  </a>
+
+  <div class="lightbox" id="lightbox"><button aria-label="Fechar imagem">×</button><img src="assets/todos.jpeg" alt="Imagem ampliada" /></div>
+
+<script src="js/script.js"></script>
+<script type="module" src="https://static.cloudflareinsights.com/beacon.min.js/v31edd6df95cf4e85bb4c19e7a9bdbcba1788362987495" integrity="sha512-iIg7k2xntmwu6/uSb5tpc/hySgZc4eoL31yB29W6tJFo2akwjPWcEqnCEdJvGexCL0KEQwVYv5BlowfhVz26hg==" data-cf-beacon='{"version":"2024.11.0","token":"55d6c902a8a143b1ab6c5051b2a1f75b","spa":2}' crossorigin="anonymous"></script>
+</body>
+</html>
